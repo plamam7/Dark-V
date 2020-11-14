@@ -159,7 +159,10 @@ gamesList.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 gamesList.BorderColor3 = Color3.fromRGB(0, 0, 0)
 gamesList.Position = UDim2.new(0.187549248, 0, 0.201365173, 0)
 gamesList.Size = UDim2.new(0.624901474, 0, 0.59613204, 0)
+gamesList.Active = true
+gamesList.Selectable = true
 gamesList.Visible = false
+gamesList.Draggable = true
 
 prisonLife.Name = "prisonLife"
 prisonLife.Parent = gamesList
@@ -173,6 +176,7 @@ prisonLife.TextColor3 = Color3.fromRGB(170, 85, 0)
 prisonLife.TextScaled = true
 prisonLife.TextSize = 14.000
 prisonLife.TextWrapped = true
+Prisonlife.Draggable = true
 prisonLife.MouseButton1Click:Connect(function()
 	gamesList.Visible = false
 	Prisonlife.Visible = true
@@ -343,6 +347,8 @@ PrisonlifeCredits.TextColor3 = Color3.fromRGB(40, 40, 40)
 PrisonlifeCredits.TextScaled = true
 PrisonlifeCredits.TextSize = 14.000
 PrisonlifeCredits.TextWrapped = true
+wait(5)
+PrisonlifeCredits.Visible = false
 
 Teleportstab.Name = "Teleports tab"
 Teleportstab.Parent = Prisonlife
