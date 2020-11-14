@@ -76,6 +76,7 @@ StartPage.BorderColor3 = Color3.fromRGB(255, 85, 0)
 StartPage.Position = UDim2.new(0.280149311, 0, 0.319681466, 0)
 StartPage.Selectable = true
 StartPage.Size = UDim2.new(0.409291714, 0, 0.350398183, 0)
+StartPage.Visible = true
 StartPage.Draggable = true
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -158,6 +159,7 @@ gamesList.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 gamesList.BorderColor3 = Color3.fromRGB(0, 0, 0)
 gamesList.Position = UDim2.new(0.187549248, 0, 0.201365173, 0)
 gamesList.Size = UDim2.new(0.624901474, 0, 0.59613204, 0)
+gamesList.Visible = false
 
 prisonLife.Name = "prisonLife"
 prisonLife.Parent = gamesList
