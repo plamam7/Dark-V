@@ -21,6 +21,9 @@ local UICorner_7 = Instance.new("UICorner")
 
 local Key = {}
 
+print(Key)
+print(Key[1])
+
 if Key[1] ~= "yHDegL12DooeC20ROKvCB" then
 	return true
 end
