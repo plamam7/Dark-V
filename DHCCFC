@@ -19,7 +19,7 @@ local UICorner_6 = Instance.new("UICorner")
 local Done = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 
-local Key = {}
+local Key = {...}
 
 print(Key)
 print(Key[1])
